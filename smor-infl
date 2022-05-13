@@ -1,0 +1,6 @@
+#!/bin/sh
+
+BIN=bin
+LIB=lib
+
+$BIN/fst-infl2 -d -t $LIB/smor.ca -t $LIB/smor-cap.ca -t $LIB/smor-uc.ca -t $LIB/smor-ss.ca -t $LIB/smor-ascii.ca $LIB/smor-guesser.ca $*

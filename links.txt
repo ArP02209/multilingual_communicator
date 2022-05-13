@@ -1,0 +1,46 @@
+Pre-Requisite before starting this project:
+i) Install Ubuntu 20.04 LTS(Long Time Support) version. Link-> https://ubuntu.com/download/desktop/thank-you?version=20.04.4&architecture=amd64.Refer this playlist of linux. Link-> https://www.youtube.com/watch?v=r6k_w-5R2qw&list=PLAi9X1uG6jZ2b1mUmrUcc_aEoc8tfss8e (Refer first 10 or 12 videos)
+
+ii) Python and shell scripting. You can refer following playlist that I have refered while learning python.
+Link-> https://www.youtube.com/watch?v=8Q83qs2MAVA&list=PLAi9X1uG6jZ2b1mUmrUcc_aEoc8tfss8e&index=3 (Refer first 10 videos)
+
+Ace Parser:(Not important)
+sweaglesw.org/linguistics/ace/
+
+
+Collins Dictionary(Online translator use this instead of google translator as this is developed using concept of Neural Machine Translation):
+https://www.collinsdictionary.com/translator
+
+DEmorphy Morph(Optional):
+https://github.com/DuyguA/DEMorphy
+
+
+Smor Morph:
+http://www.cis.uni-muenchen.de/~schmid/tools/SMOR/
+
+After installation of smor you'll need to compile a transducer too for faster generation of sentences. see "README_genration.md" in "package_for_smor" folder and follow the steps.
+
+
+RFTagger:
+https://www.cis.uni-muenchen.de/~schmid/tools/RFTagger/
+
+You'll need this tagger for obtaining correct analysis from smor.
+
+PMB Explorer:
+https://pmb.let.rug.nl/explorer/explore.php
+
+For downloading Gold Corpus from PMB (download the latest version viz 4.0.0):
+https://pmb.let.rug.nl/data.php
+
+SFST Package:
+https://www.cis.uni-muenchen.de/~schmid/tools/SFST/
+
+Flex Scanner:
+http://flex.sourceforge.net OR you can also use command "apt install flex" to do so.
+
+Bison Parser Generator:
+http://www.gnu.org/software/bison OR you can also use command "apt install bison" to do so.
+
+Ncurses library (Not important):
+http://www.gnu.org/software/ncurses
+

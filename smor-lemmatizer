@@ -1,0 +1,9 @@
+#!/bin/sh
+
+BIN=bin
+CMD=perl
+LIB=lib
+
+perl -CS -e '$|=1;while(<>){s/  *$//;print}' $* |
+$BIN/fst-infl2 -b -d -t $LIB/smor.ca -t $LIB/smor-cap.ca -t $LIB/smor-uc.ca  -t $LIB/smor-ss.ca -t $LIB/smor-ascii.ca $LIB/smor-guesser.ca |
+$CMD/smor-lemmatizer.perl

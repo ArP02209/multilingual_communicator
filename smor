@@ -1,0 +1,6 @@
+#!/bin/sh
+
+BIN=bin
+LIB=lib
+
+$BIN/fst-mor $LIB/smor.a
